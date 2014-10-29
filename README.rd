@@ -22,6 +22,12 @@ End
 Dot
  End of LEX
 
+MyScanner
+------
+how to compile
+
+$ gcc myScanner.c -o myScanner
+
 Author
 -------
 Authored by JiHyun Song
