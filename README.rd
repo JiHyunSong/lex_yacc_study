@@ -5,7 +5,7 @@ Sample test
 ------
 $ lex test.l
 $ cc lex.yy.c -o test -ll
-$ test < test.dat
+$ ./test < test.dat
  Start of LEX
 Begin
 identifier : num
@@ -24,9 +24,11 @@ Dot
 
 MyScanner
 ------
-how to compile
+* how to compile
 
 $ gcc myScanner.c -o myScanner
+
+* how to using
 
 Author
 -------
